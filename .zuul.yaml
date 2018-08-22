@@ -4,6 +4,7 @@
     parent: ansible-role-tests-vqfx-devel-py2
     vars:
       test_entrypoint: yang_fetch/test.yml
+      test_options: -vvvv
 
 - project:
     check:
