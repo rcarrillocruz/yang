@@ -1,9 +1,9 @@
 - job: 
-  name: yang_fetch-vqfx-devel-py2
-  description: Yang fetch job on vqfx with devel branch and Python 2
-  parent: ansible-role-tests-vqfx-devel-py2
-  vars:
-    test_entrypoint: yang_fetch/test.yaml
+    name: yang_fetch-vqfx-devel-py2
+    description: Yang fetch job on vqfx with devel branch and Python 2
+    parent: ansible-role-tests-vqfx-devel-py2
+    vars:
+      test_entrypoint: yang_fetch/test.yaml
 
 - project:
     check:
