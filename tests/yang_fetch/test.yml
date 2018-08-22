@@ -1,4 +1,6 @@
 - hosts: appliance
   connection: netconf
+  gather_facts: no
+
   roles:
     - yang_fetch
